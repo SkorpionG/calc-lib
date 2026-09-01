@@ -20,7 +20,7 @@ A TypeScript/JavaScript package that provides a comprehensive toolkit for common
 ## Installation
 
 ```bash
-npm install calc-lib
+npm install @skorpiong2000/calc-lib
 ```
 
 ## Usage
@@ -44,16 +44,16 @@ import {
   Vector,
   linearRegression,
   constants,
-} from 'calc-lib';
+} from '@skorpiong2000/calc-lib';
 
 // Or import everything
-import CalcLib from 'calc-lib';
+import CalcLib from '@skorpiong2000/calc-lib';
 ```
 
 ### Basic Examples
 
 ```javascript
-import { sigfigOf, add, mul, bin, hex, Vector, toRadians } from 'calc-lib';
+import { sigfigOf, add, mul, bin, hex, Vector, toRadians } from '@skorpiong2000/calc-lib';
 
 // Count significant figures
 console.log(sigfigOf(123.45)); // 5
@@ -414,7 +414,7 @@ distance3D(1, 2, 3, 4, 5, 6, 4); // 5.196 (4 sig figs)
 A comprehensive Vector class for mathematical vector operations.
 
 ```javascript
-import { Vector } from 'calc-lib';
+import { Vector } from '@skorpiong2000/calc-lib';
 
 // Create vectors
 const v1 = new Vector([3, 4]);
@@ -659,7 +659,7 @@ const andTable = truthTable(2, (inputs) => and(inputs));
 Access to 37+ physical and mathematical constants:
 
 ```javascript
-import { constants, getConstant } from 'calc-lib';
+import { constants, getConstant } from '@skorpiong2000/calc-lib';
 
 // Mathematical constants
 constants.PI; // 3.141592653589793

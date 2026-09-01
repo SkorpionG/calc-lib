@@ -1,5 +1,5 @@
 {
-  "name": "calc-lib",
+  "name": "@skorpiong2000/calc-lib",
   "version": "1.0.0",
   "description": "A TypeScript/JavaScript package that provides a comprehensive toolkit for common STEM applications - precise math, engineering, computer science, and scientific computing",
   "license": "MIT",
