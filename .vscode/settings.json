@@ -1,0 +1,35 @@
+{
+  "eslint.enable": true,
+  "eslint.useFlatConfig": true,
+  "eslint.workingDirectories": [{ "mode": "location" }],
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "cSpell.words": [
+    "sigfig",
+    "sigfigs",
+    "toSigfig",
+    "sigfigOf",
+    "getSigfigsForAddOrSub",
+    "getSigfigsForMulOrDiv",
+    "bin",
+    "hex",
+    "oct",
+    "toBase",
+    "toScientific",
+    "toEngineering",
+    "Avogadro",
+    "Boltzmann",
+    "Planck",
+    "Faraday",
+    "Rydberg",
+    "Wien",
+    "permittivity",
+    "permeability"
+  ],
+  "specstory.cloudSync.enabled": "never",
+  "specstory.autoSave.enabled": false,
+  "specstory.helpUsImprove": false
+}

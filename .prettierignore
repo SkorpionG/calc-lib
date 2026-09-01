@@ -1,0 +1,12 @@
+# Build output
+dist/
+coverage/
+
+# Dependencies
+node_modules/
+
+# Lock files (formatting these causes noise in diffs)
+package-lock.json
+
+# Generated declaration files
+*.d.ts
